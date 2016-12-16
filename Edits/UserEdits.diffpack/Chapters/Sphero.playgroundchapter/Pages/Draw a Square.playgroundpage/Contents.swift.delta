@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>    print("Unable to find a Sphero device")
+    PlaygroundPage.current.finishExecution()
+</string>
+			<key>ModifiedRange</key>
+			<string>{534, 89}</string>
+			<key>OriginalContent</key>
+			<string>	print("Unable to find a Sphero device")
+	PlaygroundPage.current.finishExecution()
+</string>
+			<key>OriginalRange</key>
+			<string>{534, 83}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>    </string>
+			<key>ModifiedRange</key>
+			<string>{1153, 4}</string>
+			<key>OriginalContent</key>
+			<string>	</string>
+			<key>OriginalRange</key>
+			<string>{1147, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>    sphero.roll(speed: UInt8.max / 4, heading: 0)
+    rest()
+    sphero.roll(speed: UInt8.max / 4, heading: 90)
+    rest()
+    sphero.roll(speed: UInt8.max / 4, heading: 180)
+    rest()
+    sphero.roll(speed: UInt8.max / 4, heading: 270)
+    rest()
+</string>
+			<key>ModifiedRange</key>
+			<string>{1266, 249}</string>
+			<key>OriginalContent</key>
+			<string>	sphero.roll(speed: UInt8.max / 4, heading: 0)
+	rest()
+	sphero.roll(speed: UInt8.max / 4, heading: 90)
+	rest()
+	sphero.roll(speed: UInt8.max / 4, heading: 180)
+	rest()
+	sphero.roll(speed: UInt8.max / 4, heading: 270)
+	rest()
+</string>
+			<key>OriginalRange</key>
+			<string>{1257, 225}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Sphero.playgroundchapter/Pages/Draw a Square.playgroundpage/Contents.swift</string>
+</dict>
+</plist>
